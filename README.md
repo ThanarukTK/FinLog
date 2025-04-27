@@ -34,13 +34,16 @@ Persona 2:
 
 ### 1.3 โครงร่างหน้าจอ / Mockup  
 **ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages**
+```markdown
 ![alt text](image/image.png)
 ![alt text](image/image-1.png)
 ![alt text](image/image-2.png)
+```
+
 ### 1.4 การไหลของผู้ใช้งาน | User Flow  
 **ตัวอย่าง (Example):**
 ```markdown
-เปิดแอป > เข้าหน้าแดชบอร์ด > เลือก "เพิ่มงาน" > บันทึก > ตั้งเตือน
+เปิดแอป > เข้าหน้าหลัก > เลือก "เพิ่มรายการ" > ใส่จำนวนเงิน > เลือกประเภท > ใส่หมายเหตุ > กดบันทึก > กดดูประวัติ
 ```
 
 ---
@@ -52,24 +55,25 @@ Persona 2:
 ```markdown
 - Flutter 3.19
 - Dart 3.2
-- Package: Provider, SharedPreferences
+- Package: Provider, SharedPreferences, react-navigation, react-native-gesture-handler, react-native-reanimated,react-native-screens, react-native-safe-area-context, react-native-community, react-native-async-storage,react-native-picker-select
+
 ```
 
 ### 2.2 ฟังก์ชันที่พัฒนา | Features Implemented  
 **Checklist:**
 ```markdown
-- [x] เพิ่ม / แก้ไข / ลบ ตารางเรียน
-- [x] ตั้งเตือนกิจกรรม
-- [x] บันทึกงานที่ต้องทำ
-- [ ] ซิงก์กับ Google Calendar
+- [x] เพิ่มรายรับรายจ่าย
+- [x] บันทึกรายรัยร่ายจ่าย
+- [x] แสดงประวัติ
+- [ ] แสดงกราฟ
 ```
 
 ### 2.3 ภาพหน้าจอแอป | App Screenshots  
 **แนบภาพหรือ URL (Attach images or image links):**
 ```markdown
-- ![Dashboard](dashboard.png)
-- ![Schedule](schedule.png)
-- ![Reminder](reminder.png)
+![alt text](image/image.png)
+![alt text](image/image-1.png)
+![alt text](image/image-2.png)
 ```
 
 ---
@@ -95,12 +99,11 @@ Persona 2:
 ---
 
 ## 4. การสะท้อนผลลัพธ์ | Reflection (2 คะแนน / 2 pts)
-
-**ตัวอย่างหัวข้อ | Suggested points:**
 ```markdown
-- พบปัญหาเวลาใช้ setState กับ async function
-- เรียนรู้การใช้ Provider ในการจัดการสถานะ
-- หากมีเวลา จะเพิ่มฟีเจอร์ login และ Firebase sync
+- พบปัญหาเวลาใช้ setState กับ async function ทำให้การอัปเดตสถานะไม่ทำงานตามที่คาดไว้ในบางกรณี
+- ตอนแรก UI ของแอปค่อนข้างซับซ้อน
+- แอปของเราค่อนข้างเน้นการบันทึกข้อมูลในระบบของตัวเอง
+- หากมีเวลา จะเพิ่มฟีเจอร์ login และ Firebase เพื่อบันทึกรายรับรายจ่าย
 ```
 
 ---
@@ -110,37 +113,37 @@ Persona 2:
 ### 5.1 ใช้ AI ช่วยคิดไอเดีย | Idea Generation
 ```markdown
 Prompt ที่ใช้:  
-"Suggest mobile app ideas for students to manage classes and reminders."
+"ช่วยคิดแอพรายรับรายจ่ายเข้าใจง่ายๆ"
 
 ผลลัพธ์:  
-ได้ไอเดียแอปจัดตารางเรียนและระบบเตือนอัตโนมัติ
+ได้แนวคิดแอพบันทึกรายรับรายจ่าย
 ```
 
 ### 5.2 ใช้ AI ช่วยออกแบบ UI | UI Layout Prompt
 ```markdown
 Prompt ที่ใช้:  
-"Design a simple layout for a schedule and reminder app in Flutter."
+"ช่วยออกแบบ layout แอพบันทึกรายรัยรายจ่ายแบบมีหน้า Home, Add Transaction, History"
 
 ผลลัพธ์:  
-ได้ code structure ของ Scaffold 3 หน้า
+ได้หน้า layout ที่ชัดเจนและใช้งานง่าย และหน้าการทำงาน 3 หน้า
 ```
 
 ### 5.3 ใช้ AI ช่วยเขียนโค้ด | Code Writing Prompt
 ```markdown
 Prompt ที่ใช้:  
-"Flutter code to create a ListView with editable schedule items."
+"ช่วยเขียนโค้ดสำหรับการบันทึกและแสดงรายรับรายจ่ายในแอป React Native"
 
 ผลลัพธ์:  
-นำไปปรับกับ logic ของแอป เพิ่มปุ่มแก้ไข
+ได้แอพที่ใช้งานง่าย
 ```
 
 ### 5.4 ใช้ AI ช่วย debug | Debug Prompt
 ```markdown
 Prompt ที่ใช้:  
-"My Flutter app crashes when I try to add an item. Here's the error: [แนบ error log]"
+"ช่วยแก้ปัญหาเข้าหน้า Add transaction เข้าแล้วใช้งานไม่ได้"
 
 ผลลัพธ์:  
-AI แนะนำให้ตรวจสอบ null และวิธีแก้ไข
+AI ตรวจสอบหน้า Add transaction และวิธีแก้ไข
 ```
 
 ### 5.5 ใช้ AI ช่วย Deploy | Deployment Prompt
@@ -153,8 +156,3 @@ Prompt ที่ใช้:
 ```
 
 ---
-
-## ✅ Checklist ก่อนส่ง | Final Checklist
-- [x] กรอกข้อมูลครบทุก Section  
-- [x] แนบ GitHub และไฟล์ติดตั้ง  
-- [x] สะท้อนผล และใช้ AI อย่างมีเหตุผล  
