@@ -34,9 +34,9 @@ Persona 2:
 
 ### 1.3 โครงร่างหน้าจอ / Mockup  
 **ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](image/image.png)
+![alt text](image/image-1.png)
+![alt text](image/image-2.png)
 ### 1.4 การไหลของผู้ใช้งาน | User Flow  
 **ตัวอย่าง (Example):**
 ```markdown
