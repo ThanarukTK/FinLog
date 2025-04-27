@@ -76,9 +76,9 @@ Persona 2:
 ### 2.3 ภาพหน้าจอแอป | App Screenshots  
 **แนบภาพหรือ URL (Attach images or image links):**
 ```markdown
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text]image.png
+![alt text]image-1.png
+![alt text]image-2.png
 ```
 
 ---
