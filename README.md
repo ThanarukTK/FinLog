@@ -1,8 +1,13 @@
 **ชื่อ - นามสกุล (Full Name):**  Thanaruk Kammarat
+
 **รหัสนักศึกษา (Student ID):**  6631503021
+
 **ชื่อแอป (App Name):**  FinLog
+
 **Framework ที่ใช้ (Framework Used):** React Native
+
 **ลิงก์ GitHub Repository:** https://github.com/ThanarukTK/FinLog.git
+
 **ลิงก์ไฟล์ติดตั้ง (APK/IPA):** [ใส่ลิงก์ที่นี่ | Insert link here]
 
 ---
