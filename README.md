@@ -2,7 +2,7 @@
 
 **รหัสนักศึกษา (Student ID):**  6631503021
 
-**ชื่อแอป (App Name):**  FinLog
+**ชื่อแอป (App Name):**  Mobfy
 
 **Framework ที่ใช้ (Framework Used):** React Native
 
