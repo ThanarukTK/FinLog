@@ -39,9 +39,9 @@ Persona 2:
 
 ### 1.3 โครงร่างหน้าจอ / Mockup  
 **ใส่รูปภาพ หรือคำอธิบายแต่ละหน้าหลัก 3 หน้า | Attach image or describe 3 main pages**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Screenshot_20250428_023003_Expo_Go](https://github.com/user-attachments/assets/0b3fa07a-93b8-47c3-8f7e-499f05fd5754)
+![Screenshot_20250428_023011_Expo_Go](https://github.com/user-attachments/assets/aa574536-0243-4f48-96c2-a4bf54db6936)
+![Screenshot_20250428_023015_Expo_Go](https://github.com/user-attachments/assets/973b2d0d-6b32-4ae0-93c2-0758d70ceb41)
 
 
 ### 1.4 การไหลของผู้ใช้งาน | User Flow  
@@ -74,9 +74,9 @@ Persona 2:
 
 ### 2.3 ภาพหน้าจอแอป | App Screenshots  
 **แนบภาพหรือ URL (Attach images or image links):**
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Screenshot_20250428_023003_Expo_Go](https://github.com/user-attachments/assets/ff06b66f-8097-4fca-902c-8ff5ac6543db)
+![Screenshot_20250428_023011_Expo_Go](https://github.com/user-attachments/assets/9782e784-4c09-433a-b4ad-fff23a230049)
+![Screenshot_20250428_023015_Expo_Go](https://github.com/user-attachments/assets/0e831293-6143-4544-83df-9d4db03d9227)
 
 ---
 
