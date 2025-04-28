@@ -8,7 +8,7 @@
 
 **ลิงก์ GitHub Repository:** https://github.com/ThanarukTK/FinLog.git
 
-**ลิงก์ไฟล์ติดตั้ง (APK/IPA):** [ใส่ลิงก์ที่นี่ | Insert link here]
+**ลิงก์ไฟล์ติดตั้ง (APK/IPA):** https://expo.dev/accounts/thanaruktk/projects/Mobfy/builds/a4fe7d80-828b-4a3e-a330-a6a8b6599961
 
 ---
 
