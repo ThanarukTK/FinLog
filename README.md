@@ -151,10 +151,10 @@ AI ตรวจสอบหน้า Add transaction และวิธีแก
 ### 5.5 ใช้ AI ช่วย Deploy | Deployment Prompt
 ```markdown
 Prompt ที่ใช้:  
-"How to build Flutter app as APK and test on Android?"
+"ช่วยบอกวิธีสร้างไฟล์ APK ใน React Native"
 
 ผลลัพธ์:  
-คำสั่ง flutter build apk --release พร้อมวิธีติดตั้ง
+ได้คำสั่ง npm install -g eas-cli, eas login, eas build:configure, eas build -p android --profile preview พร้อมวิธีติดตั้ง
 ```
 
 ---
