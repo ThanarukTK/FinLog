@@ -57,8 +57,8 @@ Persona 2:
 ### 2.1 รายละเอียดการพัฒนา | Development Details  
 **เครื่องมือที่ใช้ / Tools used:**
 ```markdown
-- Flutter 3.19
-- Dart 3.2
+- React Native
+- Expo
 - Package: Provider, SharedPreferences, react-navigation, react-native-gesture-handler, react-native-reanimated,react-native-screens, react-native-safe-area-context, react-native-community, react-native-async-storage,react-native-picker-select
 
 ```
